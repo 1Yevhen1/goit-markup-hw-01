@@ -1,0 +1,28 @@
+.header {
+color: blueviolet;
+}
+
+.header-logo {
+    background-color: rgb(255, 0, 234);
+}
+
+.hrader-list-nav {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+:root {
+    --main-text-color: #333333;
+    --font-size: 16px;
+    --secondary-color: #ff0000;
+}
+
+h1 {
+    color: var(--main-text-color);
+}
